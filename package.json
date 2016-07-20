@@ -1,0 +1,28 @@
+{
+  "name": "todo-recruitment",
+  "version": "1.0.0",
+  "description": "Sample angular todo app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jatzek/todo-recruitment.git"
+  },
+  "keywords": [
+    "angular",
+    "todo"
+  ],
+  "author": "Jacek Chudziński <jacek.chudzinski@netgenes.pl>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jatzek/todo-recruitment/issues"
+  },
+  "homepage": "https://github.com/jatzek/todo-recruitment#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-browser-sync": "^2.2.0",
+    "grunt-contrib-watch": "^1.0.0"
+  }
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <base href="/">
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Todo App</title>
+</head>
+<body ng-app="todoApp">
+
+<h1>ToDo App</h1>
+<ng-view></ng-view>
+
+<script src="bower_components/angular/angular.js"></script>
+<script src="bower_components/angular-route/angular-route.js"></script>
+
+<script src="app.js"></script>
+
+<script src="controllers/todo-list-index.js"></script>
+<script src="controllers/todo-item-edit.js"></script>
+<script src="controllers/todo-item-view.js"></script>
+
+<script src="services/todo-repo.js"></script>
+
+<script src="routes/todo-item-edit.js"></script>
+<script src="routes/todo-item-view.js"></script>
+<script src="routes/todo-list-index.js"></script>
+</body>
+</html>
