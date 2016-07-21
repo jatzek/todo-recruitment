@@ -10,6 +10,6 @@ angular
             
             controller : 'todoItemViewCtrl',
             controllerAs : 'vm',
-            templateUrl : '/templates/todo-item-view.html'
+            templateUrl : 'templates/todo-item-view.html'
         });
     });

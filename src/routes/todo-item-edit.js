@@ -10,6 +10,6 @@ angular
 
             controller : 'todoItemEditCtrl',
             controllerAs : 'vm',
-            templateUrl : '/templates/todo-item-edit.html'
+            templateUrl : 'templates/todo-item-edit.html'
         });
     });

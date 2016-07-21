@@ -13,10 +13,12 @@
     <ng-view></ng-view>
 </div>
 
-
+<!-- build:js vendors.min.js -->
 <script src="bower_components/angular/angular.js"></script>
 <script src="bower_components/angular-route/angular-route.js"></script>
+<!-- endbuild -->
 
+<!-- build:js todo-app.min.js -->
 <script src="app.js"></script>
 
 <script src="controllers/todo-list-index.js"></script>
@@ -28,7 +30,7 @@
 <script src="routes/todo-item-edit.js"></script>
 <script src="routes/todo-item-view.js"></script>
 <script src="routes/todo-list-index.js"></script>
-
+<!-- endbuild -->
 <script src="demo.js"></script>
 </body>
 </html>

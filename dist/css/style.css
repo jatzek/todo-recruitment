@@ -1,0 +1,63 @@
+/*common*/
+html, body {
+
+    font-family: sans-serif;
+}
+h1 {
+
+    color: #666;
+    padding-bottom: 0.2em;
+}
+a, button {
+    color: #0f7595;
+    font-size: 1rem;
+    display: inline-block;
+    background-color: transparent;
+    border:solid 1px #ddd;
+    padding: 5px 10px;
+    border-radius: 3px;
+    text-decoration: none;
+    cursor: pointer;
+}
+a:hover, button:hover {
+    color: #33a0ce;
+}
+
+/*app*/
+#app-container {
+
+    width: 600px;
+    margin: auto;
+}
+
+/*modules*/
+.view-title {
+
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 1rem;
+}
+
+.actions {
+    padding-top: 1rem;
+    border-top: 1px solid #ddd;
+}
+
+/*list*/
+ul {
+    padding: 0;
+}
+li {
+    list-style: none;
+    padding: 0.3em;
+    margin: 0.1em 0;
+}
+li:hover {
+    background-color: #eee;
+}
+
+
+/*items*/
+.complete {
+    text-decoration: line-through;
+    color: #3c3c3c;
+}

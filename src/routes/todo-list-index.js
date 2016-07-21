@@ -10,6 +10,6 @@ angular
 
             controller : 'todoListIndexCtrl',
             controllerAs : 'vm',
-            templateUrl : '/templates/todo-list-index.html'
+            templateUrl : 'templates/todo-list-index.html'
         });
     });
