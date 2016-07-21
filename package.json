@@ -4,7 +4,9 @@
   "description": "Sample angular todo app",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "pretest": "npm install",
+    "test": "karma start karma.conf.js",
+    "test-single-run": "karma start karma.conf.js --single-run"
   },
   "repository": {
     "type": "git",
@@ -23,6 +25,13 @@
   "devDependencies": {
     "grunt": "^1.0.1",
     "grunt-browser-sync": "^2.2.0",
-    "grunt-contrib-watch": "^1.0.0"
+    "grunt-contrib-watch": "^1.0.0",
+    "karma-jasmine": "~1.0.2",
+    "jasmine-core": "~2.4.1",
+    "karma": "~1.1.1",
+    "karma-chrome-launcher": "~1.0.1",
+    "karma-firefox-launcher": "~1.0.0",
+    "karma-junit-reporter": "~1.1.0",
+    "angular-mocks": "~1.5.7"
   }
 }

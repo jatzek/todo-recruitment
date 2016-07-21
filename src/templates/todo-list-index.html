@@ -1,6 +1,5 @@
 <div>
-    <h2>Your todo</h2>
-    <button ng-click="vm.newTodo()">New Todo</button>
+    <h2 class="view-title">Index</h2>
     <ul>
         <li ng-repeat="todo in vm.todos | limitTo : 10 ">
             <span ng-class="{ complete: todo.complete }">{{ todo.summary }}</span>
@@ -8,4 +7,7 @@
             <a ng-href="/{{ todo.id }}/edit">edit</a>
         </li>
     </ul>
+    <div class="actions">
+        <button ng-click="vm.newTodo()">New Todo</button>
+    </div>
 </div>

@@ -1,8 +1,17 @@
 <div>
+    <h2 class="view-title">Edit #{{ vm.todo.id }}</h2>
     <form>
-        <input type="text" ng-model="vm.todo.summary" />
-        <input type="checkbox" ng-model="vm.todo.complete" />
+        <div>
+            <label for="todo-summary">Summary</label>
+            <input type="text" ng-model="vm.todo.summary" id="todo-summary" />
+        </div>
+        <div>
+            <label for="todo-complete">Completed</label>
+            <input type="checkbox" ng-model="vm.todo.complete" id="todo-complete" />
+        </div>
     </form>
-    <a href="/">Back to list</a>
-    <button ng-click="vm.remove()">Remove this todo</button>
+    <div class="actions">
+        <a href="/">Back to list</a>
+        <button ng-click="vm.remove()">Remove this todo</button>
+    </div>
 </div>
